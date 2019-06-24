@@ -1,0 +1,72 @@
+/*css*/
+body {
+  background-color: #6264e4;
+  margin: 0;
+}
+
+h1 {
+  color: chartreuse;
+  border: 5px solid #6264e4;
+  border-radius: 5px;
+  color: white;
+}
+
+img {
+  width: 600px;
+  border: 3px solid chartreuse;
+  border-radius: 5px;
+}
+
+.google {
+  width: 60px;
+}
+
+.terra {
+  height: 500px;
+  width: 1000px;
+}
+
+.borda {
+  width: 100%;
+  height: 150px;
+  background-color: #f11414;
+}
+
+.texto {
+  color: chartreuse;
+  font-size: 40px;
+  font-family: verdana, Arial, Helvetica;
+  text-align: center;
+  font-weight: bold;
+  width: 600px;
+  height: 300px;
+  background-color: black;
+  /*BoxModel*/
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.flutuante {
+  width: 400px;
+  height: 100px;
+  bottom: 0px;
+  position: fixed;
+  background-color: aqua;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
