@@ -1,0 +1,11 @@
+@mixin borda-redonda ($cor-padrao: white){
+    border: 5px solid $cor-padrao;
+    border-radius: 5px;
+    color: white;
+}
+@mixin qualquer-coisa {
+    padding: 40px;
+    margin: 10px;
+    color: aqua;
+    background-color: black;
+}
